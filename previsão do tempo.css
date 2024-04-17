@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://source.unsplash.com/random");
+    /*background-image:url(https://source.unsplash.com%2F1600x900%2F%3Flandscape&v=qxzqEuAOYZ4);*/
+    background-position: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.caixa-maior {
+    background: black;
+    opacity: 0.7;
+    border-radius: 25px;
+    padding: 25px;
+    width: 95%;
+    max-width: 450px;
+}
+
+.input-cidade {
+    border: none;
+    outline: none;
+    /* tira a borda azul da caixa de pesquisa colocada pelo google*/
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 30px;
+    background-color: #7c7c7c2b;
+    color: white;
+    width: calc(100% - 70px);
+    /* Faz uma conta para que o botão de buscar se adapte ao tamanha da tela caso ela seja alterada*/
+}
+
+.botao-buscar {
+    border: none;
+    outline: none;
+    padding: 15px;
+    border-radius: 60px;
+    background-color: #ffffff41;
+    cursor: pointer;
+    float: right;
+    /* Joga o botão totalmente para a direita */
+}
+
+.img-buscar {
+    width: 25px;
+}
+
+.caixa-media {
+    margin-top: 30px;
+}
+
+.cidade {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.temp {
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+.caixa-menor {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.texto-previsao {
+    color: #ffffff;
+    margin-left: 10px;
+    text-transform: capitalize;
+}
+
+.umidade {
+    color: #ffffff;
+}
